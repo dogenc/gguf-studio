@@ -1,0 +1,17 @@
+/target
+/dist
+**/*.rs.bk
+*.pdb
+Cargo.lock.bak
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lokale Backups, die die App selbst anlegt (falls je in dieses Verzeichnis geschrieben)
+/gguf-studio-backups/
